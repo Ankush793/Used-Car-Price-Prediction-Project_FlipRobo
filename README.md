@@ -1,16 +1,16 @@
 # Car-price-prediction
-Project Overview
+#Project Overview
 Scraped 6224 used cars data from Carsdekho.com website using Python and Selenium. Cleaned the data and built a model to help determine the price of cars on auction Built a flask web app and deploy to cloud
 
-Packages/Tools Used
+#Packages/Tools Used
 Python Version: 3.9 Selenium Request Numpy Matplotlib Seaborn Scikit-Learn
 
-Data
+#Data
 The data was scraped from carsdekho.com site. The data was scraped from multiple pages from the site and was stored as a excel file. The scraped data contains:
 
 Model Price Year Mileage Engine Transmisson Location Driven Kilometers
 
-Data Cleaning
+#Data Cleaning
 The features (columns) contained messy entries and were tidied using some custom functions. The following steps were taken.
 
 Removed the duplicate rows in the data because it will affect the analysis.
